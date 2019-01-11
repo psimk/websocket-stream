@@ -3,6 +3,7 @@
   "version": "5.1.2",
   "license": "BSD-2-Clause",
   "description": "Use websockets with the node streams API. Works in browser and node",
+  "types": "./index.d.ts",
   "scripts": {
     "test": "node test.js",
     "start": "beefy test-client.js"
@@ -11,13 +12,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/maxogden/websocket-stream.git"
   },
-  "keywords": [
-    "websocket",
-    "websockets",
-    "stream",
-    "streams",
-    "realtime"
-  ],
+  "keywords": [ "websocket", "websockets", "stream", "streams", "realtime" ],
   "_npmUser": {
     "name": "maxogden",
     "email": "max@maxogden.com"
